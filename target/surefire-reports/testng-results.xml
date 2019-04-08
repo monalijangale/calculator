@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34594" started-at="2019-04-08T19:02:19Z" finished-at="2019-04-08T19:02:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34594" started-at="2019-04-08T19:02:19Z" finished-at="2019-04-08T19:02:54Z">
+      <class name="com.calculator.test.CalculatorTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="start" is-config="true" duration-ms="7328" started-at="2019-04-09T00:32:12Z" finished-at="2019-04-09T00:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testCalculator(long, long, com.calculator.pages.CalculatorPage$Operation, long)[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="testCalculator" duration-ms="8069" started-at="2019-04-09T00:32:19Z" data-provider="TestData" finished-at="2019-04-09T00:32:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[423]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[525]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mult]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[222075]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method status="PASS" signature="testCalculator(long, long, com.calculator.pages.CalculatorPage$Operation, long)[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="testCalculator" duration-ms="9070" started-at="2019-04-09T00:32:27Z" data-provider="TestData" finished-at="2019-04-09T00:32:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Div]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method status="PASS" signature="testCalculator(long, long, com.calculator.pages.CalculatorPage$Operation, long)[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="testCalculator" duration-ms="10787" started-at="2019-04-09T00:32:36Z" data-provider="TestData" finished-at="2019-04-09T00:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-234234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method status="PASS" signature="testCalculator(long, long, com.calculator.pages.CalculatorPage$Operation, long)[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="testCalculator" duration-ms="6646" started-at="2019-04-09T00:32:47Z" data-provider="TestData" finished-at="2019-04-09T00:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-23094823]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Minus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23329646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.calculator.test.CalculatorTest@d7b1517]" name="quit" is-config="true" duration-ms="2913" started-at="2019-04-09T00:32:54Z" finished-at="2019-04-09T00:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.calculator.test.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

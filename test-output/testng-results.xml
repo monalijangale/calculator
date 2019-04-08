@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9389" started-at="2019-04-08T18:57:04Z" finished-at="2019-04-08T18:57:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9389" started-at="2019-04-08T18:57:04Z" finished-at="2019-04-08T18:57:13Z">
+      <class name="com.calculator.test.CalculatorTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.calculator.test.CalculatorTest@5d5eef3d]" name="start" is-config="true" duration-ms="4269" started-at="2019-04-09T00:26:59Z" finished-at="2019-04-09T00:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testCalculator(long, long, com.calculator.pages.CalculatorPage$Operation, long)[pri:0, instance:com.calculator.test.CalculatorTest@5d5eef3d]" name="testCalculator" duration-ms="9358" started-at="2019-04-09T00:27:04Z" data-provider="TestData" finished-at="2019-04-09T00:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-23094823]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Minus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23329646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.calculator.test.CalculatorTest@5d5eef3d]" name="quit" is-config="true" duration-ms="2743" started-at="2019-04-09T00:27:13Z" finished-at="2019-04-09T00:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.calculator.test.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

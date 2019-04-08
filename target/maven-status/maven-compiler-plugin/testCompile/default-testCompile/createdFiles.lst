@@ -1,0 +1,4 @@
+com\calculator\webdriver\WebdriverBase.class
+com\calculator\pages\CalculatorPage.class
+com\calculator\pages\CalculatorPage$Operation.class
+com\calculator\test\CalculatorTest.class
